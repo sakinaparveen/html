@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,12 +14,15 @@
             margin: 0;
             padding: 20px;
         }
+
         h1 {
             color: #2c3e50;
         }
+
         h2 {
             color: #34495e;
         }
+
         p {
             font-size: 16px;
         }
@@ -39,20 +43,66 @@
             flex: 1;
             text-align: center;
         }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
     </style>
 </head>
+
 <body>
-    
-    
+
+
     <div class="container">
         <div class="text-content">
             <h1>Welcome to Portfolio</h1>
             <h2>I am Sakeena Parveen</h2>
             <p>This is a simple HTML document.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Education</th>
+                        <th>Year</th>
+                        <th>Percentage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bachelor of Science</td>
+                        <td>2018</td>
+                        <td>85%</td>
+                    </tr>
+                    <tr>
+                        <td>Master of Science</td>
+                        <td>2020</td>
+                        <td>90%</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
         <div class="image-content">
             <img src="/public/images/profile.jpg" alt="Placeholder Image">
         </div>
     </div>
 </body>
+
 </html>
